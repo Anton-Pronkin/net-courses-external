@@ -1,4 +1,4 @@
-<div style="text-align:center"><img src="media\epam_logo.png" style="width:1in;height:0.35417in" /></div>
+![Logo](/HomeWork/media/epam_logo.png)
 
 # C\# Основы синтаксиса
 
@@ -40,7 +40,7 @@
 
 Написать программу, которая запрашивает с клавиатуры число N и выводит на экран следующее «изображение», состоящее из N строк:
 
-<img src="01\media\image2.png" style="width:0.91181in;height:1.67153in" />
+![Logo](/HomeWork/01/media/image2.png)
 
 ### Требования
 
@@ -56,7 +56,7 @@
 Написать программу, которая запрашивает с клавиатуры число N и выводит
 на экран следующее «изображение», состоящее из N строк:
 
-<img src="01\media\image3.png" style="width:1.824in;height:1.848in" />
+![Logo](/HomeWork/01/media/image3.png)
 
 ### Требования
 
@@ -72,7 +72,7 @@
 
 Написать программу, которая запрашивает с клавиатуры число N и выводит на экран следующее «изображение», состоящее из N треугольников:
 
-<img src="01\media\image4.png" style="width:0.82292in;height:2.4926in" />
+![Logo](/HomeWork/01/media/image4.png)
 
 ### Требования
 
