@@ -1,4 +1,4 @@
-![Logo](/HomeWork/media/epam_logo.png)
+![Logo](https://github.com/Anton-Pronkin/net-courses-external/raw/master/HomeWork/media/epam_logo.png)
 
 # C\# Основы синтаксиса
 
@@ -40,7 +40,7 @@
 
 Написать программу, которая запрашивает с клавиатуры число N и выводит на экран следующее «изображение», состоящее из N строк:
 
-![Logo](/HomeWork/01/media/image2.png)
+![Logo](https://github.com/Anton-Pronkin/net-courses-external/raw/master/HomeWork/01/media/image2.png)
 
 ### Требования
 
@@ -56,7 +56,7 @@
 Написать программу, которая запрашивает с клавиатуры число N и выводит
 на экран следующее «изображение», состоящее из N строк:
 
-![Logo](/HomeWork/01/media/image3.png)
+![Logo](https://github.com/Anton-Pronkin/net-courses-external/raw/master/HomeWork/01/media/image3.png)
 
 ### Требования
 
@@ -72,7 +72,7 @@
 
 Написать программу, которая запрашивает с клавиатуры число N и выводит на экран следующее «изображение», состоящее из N треугольников:
 
-![Logo](/HomeWork/01/media/image4.png)
+![Logo](https://github.com/Anton-Pronkin/net-courses-external/raw/master/HomeWork/01/media/image4.png)
 
 ### Требования
 
