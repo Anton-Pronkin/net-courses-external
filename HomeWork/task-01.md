@@ -40,7 +40,7 @@
 
 Написать программу, которая запрашивает с клавиатуры число N и выводит на экран следующее «изображение», состоящее из N строк:
 
-![Logo](https://github.com/Anton-Pronkin/net-courses-external/raw/master/HomeWork/01/media/image2.png)
+![Task](https://github.com/Anton-Pronkin/net-courses-external/raw/master/HomeWork/media/01/subtask-2.png)
 
 ### Требования
 
@@ -56,7 +56,7 @@
 Написать программу, которая запрашивает с клавиатуры число N и выводит
 на экран следующее «изображение», состоящее из N строк:
 
-![Logo](https://github.com/Anton-Pronkin/net-courses-external/raw/master/HomeWork/01/media/image3.png)
+![Task](https://github.com/Anton-Pronkin/net-courses-external/raw/master/HomeWork/media/01/subtask-3.png)
 
 ### Требования
 
@@ -72,11 +72,11 @@
 
 Написать программу, которая запрашивает с клавиатуры число N и выводит на экран следующее «изображение», состоящее из N треугольников:
 
-![Logo](https://github.com/Anton-Pronkin/net-courses-external/raw/master/HomeWork/01/media/image4.png)
+![Task](https://github.com/Anton-Pronkin/net-courses-external/raw/master/HomeWork/media/01/subtask-4.png)
 
 ### Требования
 
-1.  При запуске должно выводиться приветственное сообщение и указания по работе с программой.
+1. При запуске должно выводиться приветственное сообщение и указания по работе с программой.
 2. При вводе некорректных значений (0, &lt; 0, нечисловые значения) должно выдаваться сообщение об ошибке, после чего можно ввести значение еще раз.
 3. После ввода корректных значений должен быть выведен результат.
 4. Не должно быть пустых строк до «изображения» и после него.

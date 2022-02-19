@@ -1,4 +1,4 @@
-<div style="text-align:center"><img src="media\epam_logo.png" style="width:1in;height:0.35417in" /></div>
+![Logo](https://github.com/Anton-Pronkin/net-courses-external/raw/master/HomeWork/media/epam_logo.png)
 
 # Массивы и методы
 

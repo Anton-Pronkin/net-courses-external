@@ -1,4 +1,4 @@
-<div style="text-align:center"><img src="media\epam_logo.png" style="width:1in;height:0.35417in" /></div>
+![Logo](https://github.com/Anton-Pronkin/net-courses-external/raw/master/HomeWork/media/epam_logo.png)
 
 # Делегаты и события
 
@@ -59,7 +59,7 @@
 
 ### Пример работы программы
 
-<img src="09\media\image2.png" style="width:3.11458in;height:2.29722in" />
+![Task](https://github.com/Anton-Pronkin/net-courses-external/raw/master/HomeWork/media/09/subtask-2.png)
 
 ## Задание 3
 
