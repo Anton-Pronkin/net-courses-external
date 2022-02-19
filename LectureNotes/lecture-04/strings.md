@@ -1,4 +1,4 @@
-# Полезные материалы:
+# Полезные материалы
 
 * [Руководство по работе со строками от Microsoft](https://docs.microsoft.com/ru-ru/dotnet/csharp/programming-guide/strings/)
 * [System.String](https://docs.microsoft.com/ru-ru/dotnet/api/system.string?view=netframework-4.6.1): особое внимание стоит уделить встроенным методам класса.

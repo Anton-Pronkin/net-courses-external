@@ -1,7 +1,7 @@
 # Типы в .NET
 
 ### Иерархия типов в C#:
-![Types](https://github.com/Anton-Pronkin/net-courses-external/raw/master/LectureNotes/task-04/types.png)
+![Types](https://github.com/Anton-Pronkin/net-courses-external/raw/master/LectureNotes/lecture-05/types.png)
 
 
 ### Типы значений и ссылочные типы

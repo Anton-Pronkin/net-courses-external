@@ -52,7 +52,7 @@ static void Main(string[] args)
 
 Делегат не содержащий ссылки на метод, равен **null**. Если вызвать такой (пустой) делегат, то произойдёт **NullReferenceException**. Поэтому перед вызовом делегата необходимо <u>**всегда**</u> проверять его на **null** или использовать null-безопасный вызов метода.
 
-![Безопасный вызов делегата](https://github.com/Anton-Pronkin/net-courses-external/raw/master/LectureNotes/task-09/safe_delegate_call.png)
+![Безопасный вызов делегата](https://github.com/Anton-Pronkin/net-courses-external/raw/master/LectureNotes/lecture-10/safe_delegate_call.png)
 
 ### Добавление и удаление методов из делегата
 
@@ -174,7 +174,7 @@ Function plusOne = (x) => x + 1;
 
 События позволяют издателю (Publisher) уведомлять подписчиков (Subscribers) о возникновении каких-либо ситуаций.
 
-![Подписка на события](https://github.com/Anton-Pronkin/net-courses-external/raw/master/LectureNotes/task-09/pub_subpng)
+![Подписка на события](https://github.com/Anton-Pronkin/net-courses-external/raw/master/LectureNotes/lecture-10/pub_sub.png)
 
 Класс, вызывающий событие, называется издателем, а классы, обрабатывающие его, - подписчиками.
 

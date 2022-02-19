@@ -13,13 +13,15 @@ Unboxing, соответственно наоборот.
 ### Виды обобщений
 * Обобщённые методы:
 ```cs
-void WriteTArr<T>(T arr){ }
+    void WriteTArr<T>(T arr){ }
 ```
+
 * Обобщённые типы (классы и структуры):
 ```cs
     class MyList<T>
     struct Pair<TKey, TValue>
 ```
+
 * Обобщённые интерфейсы:
 ```cs
     interface IDrawable<T>
@@ -32,14 +34,15 @@ void WriteTArr<T>(T arr){ }
 ```cs
     public class Person<T>
     {
-    public T Id { get; set; }
-    public string Name { get; set; }
+        public T Id { get; set; }
+        public string Name { get; set; }
     }
 ```
 * Пример использования класса:
 ```cs
     var personWithLongId = new Person<long>();
     personWithLongId.Id = 4;
+
     var personWithGuidId = new Person<Guid>();
     personWithGuidId.Id = Guid.NewGuid();
 ```
@@ -91,11 +94,11 @@ void WriteTArr<T>(T arr){ }
 
 |Ограничение|Действие|
 |-----------|--------|
-| where T : struct  | Тип *T* должен быть структурой (value-type)  |
-| where T : class | Тип *T* должен быть классом (reference-type) |
-| where T : new() | Тип *T* должен иметь конструктор по умолчанию |
-| where T : SomeBase | Тип *T* должен соответствовать типу *SomeClass* или какому-либо его потомку. Возможно указание другого аргумента типа в качестве требуемого предка |
-| where T : ISomeInterface | Тип *T* должен явно или по праву наследования реализовывать интерфейс *ISomeInterface* |
+| where T : struct  | Тип **T** должен быть структурой (value-type)  |
+| where T : class | Тип **T** должен быть классом (reference-type) |
+| where T : new() | Тип **T** должен иметь конструктор по умолчанию |
+| where T : SomeBase | Тип **T** должен соответствовать типу *SomeClass* или какому-либо его потомку. Возможно указание другого аргумента типа в качестве требуемого предка |
+| where T : ISomeInterface | Тип **T** должен явно или по праву наследования реализовывать интерфейс *ISomeInterface* |
 
 Если ограничений несколько, они должны указываться через запятую.
 
@@ -118,10 +121,10 @@ null. Напрямую это сделать мы не можем:
     T id = default(T);
 ```
 Оператор возвращает значение по умолчанию в зависимости от типа:
-* 0 для числовых типов;
-* false для bool;
-* \0 для символов;
-* null для объектов классов и структур Nullable.
+* `0` для числовых типов;
+* `false` для bool;
+* `\0` для символов;
+* `null` для объектов классов и структур Nullable.
 
 
 ### Статические члены в обобщениях
@@ -195,6 +198,6 @@ null. Напрямую это сделать мы не можем:
 * **Объяснение ковариации и контрвариации на примерах**
     * https://ru.stackoverflow.com/questions/516687
 
-* **Дополнительные материалы:**
+* **Дополнительные материалы**
     * https://metanit.com/sharp/tutorial/3.12.php
     * https://professorweb.ru/my/csharp/charp_theory/level11/11_1.php

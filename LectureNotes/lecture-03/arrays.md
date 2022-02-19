@@ -3,28 +3,29 @@
 массива осуществляется по индексу, индексация элементов начинаяется с нуля. [Подробнее](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/arrays/using-foreach-with-arrays).
 
 ## Типы массивов
-* [Одномерные](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/arrays/single-dimensional-arrays): new int[4];
+* [Одномерные](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/arrays/single-dimensional-arrays): `new int[4];`
 
 | 0 | 1 | 2 | 3 | 4 |
 | - | - | - | - | - |
 | [0] -23 | [1] 0 | [2] 15 | [3] 0 | [4] 2|
 
 
-• [Многомерные](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/arrays/multidimensional-arrays): new int[3,3], new int[2,4,5,6..n];
+* [Многомерные](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/arrays/multidimensional-arrays): `new int[3,3], new int[2,4,5,6..n];`
+
 | |0 | 1 | 2|
 |-|-|-|-|
-0| [0, 0] 50| [0, 1] -24| [0, 2] 0
-1| [1, 0] 82| [1, 1] 4| [1, 2] 0
-2| [2, 0] 0| [2, 1] 0| [2, 2] 0
+|0| [0, 0] 50 | [0, 1] -24 | [0, 2] 0 |
+|1| [1, 0] 82 | [1, 1] 4 | [1, 2] 0 |
+|2| [2, 0] 0 | [2, 1] 0 | [2, 2] 0 |
 
 
+* [Рваные](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/arrays/jagged-arrays): `new object[3][]`
 
-• [Рваные](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/arrays/jagged-arrays): new object[3][]
- |0 | 1 | 2
--|-|-|-
-0| [0, 0] 50| [0, 1] -24
-1| [1, 0] 82| [1, 1] 4| [1, 2] 0
-2| [2, 0] 0
+| |0 | 1 | 2 |
+|-|-|-|-|
+|0| [0, 0] 50| [0, 1] -24 |
+|1| [1, 0] 82| [1, 1] 4| [1, 2] 0 |
+|2| [2, 0] 0 |
 
 
 ## Инициализация массивов
